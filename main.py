@@ -1,7 +1,8 @@
 import requests
 import time
 
-url = "https://advert-app.com/rocket/seenAd/5609089582"
+user_id = input("Введи tg user id: ")
+url = f"https://advert-app.com/rocket/seenAd/{user_id}"
 
 while True:
     try:
